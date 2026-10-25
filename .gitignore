@@ -1,0 +1,15 @@
+
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.vscode/
+
+# Jupyter temporary files
+*.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+models/bank_subscription_model.joblib
