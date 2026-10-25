@@ -69,8 +69,15 @@ Windows PowerShell:
 ```bash
 pip install -r requirements.txt
 ```
+### 3. Train the model
 
-### 3. Start the API
+```bash
+python src/train.py
+```
+
+This generates the trained model and decision-threshold files in the `models/` directory.
+
+### 4. Start the API
 
 From the project root:
 
@@ -78,7 +85,7 @@ From the project root:
 python -m uvicorn src.api:app --reload
 ```
 
-### 4. Test the API
+### 5. Test the API
 
 Open:
 
